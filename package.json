@@ -83,7 +83,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "airtasker/spot",
+  "repository": "stediinc/spot",
   "scripts": {
     "build-docs": "webpack --config ./docs/webpack.config.js",
     "build": "tsc",
