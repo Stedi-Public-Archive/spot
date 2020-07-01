@@ -10,7 +10,7 @@ import {
   TypeReferenceNode,
   UnionTypeNode
 } from "ts-morph";
-import { ParserError, TypeNotAllowedError } from "../errors";
+import { ParserError, TypeNotAllowedError, TypeDeclarationError } from "../errors";
 import { LociTable } from "../locations";
 import {
   ArrayType,
@@ -622,7 +622,11 @@ function getTargetDeclarationFromTypeReference(
         `${errorMsg}\nDid you forget to import String? => import { String } from "@airtasker/spot"`
       );
     } else {
-      throw new Error(errorMsg);
+      const locations = declarations.map(decl => ({
+        file: decl.getSourceFile().getFilePath(),
+        position: decl.getPos()
+      }));
+      throw new TypeDeclarationError(errorMsg, ...locations);
     }
     // TODO: same for other internal custom types e.g. Number
   }

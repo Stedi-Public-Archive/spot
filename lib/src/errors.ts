@@ -13,3 +13,4 @@ export class ParserError extends Error {
 
 export class OptionalNotAllowedError extends ParserError {}
 export class TypeNotAllowedError extends ParserError {}
+export class TypeDeclarationError extends ParserError {}
