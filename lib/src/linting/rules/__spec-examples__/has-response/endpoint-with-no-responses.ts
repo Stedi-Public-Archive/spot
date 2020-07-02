@@ -1,4 +1,4 @@
-import { api, endpoint } from "@airtasker/spot";
+import { api, endpoint } from "@stediinc/spot";
 
 @api({ name: "contract" })
 class Contract {}

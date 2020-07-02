@@ -1,4 +1,4 @@
-import { api, endpoint } from "@airtasker/spot";
+import { api, endpoint } from "@stediinc/spot";
 import "./duplicate-endpoint-name-contract-dependency";
 
 /** contract description */

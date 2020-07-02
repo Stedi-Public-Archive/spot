@@ -1,4 +1,4 @@
-import { config } from "@airtasker/spot";
+import { config } from "@stediinc/spot";
 
 class NotConfigClass {}
 

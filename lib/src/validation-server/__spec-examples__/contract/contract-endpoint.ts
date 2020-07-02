@@ -7,7 +7,7 @@ import {
   request,
   response,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 import { ErrorBody, UserBody } from "./models";
 
 /** Retrieves a user in a company */

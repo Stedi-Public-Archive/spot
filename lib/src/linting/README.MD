@@ -125,7 +125,7 @@ In every test case, we create an example contract representing the scenarios:
 ```typescript
 // lib/src/linting/rules/__spec-examples__/your-new-linting-rule-name/your-scenario.ts
 
-import { api, body, defaultResponse, endpoint, String } from "@airtasker/spot";
+import { api, body, defaultResponse, endpoint, String } from "@stediinc/spot";
 
 @api({ name: "contract" })
 class Contract {}

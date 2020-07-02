@@ -4,7 +4,7 @@ import {
   endpoint,
   request,
   response
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 import { DefaultBody, SuccessBody } from "./contract";
 
 @endpoint({ method: "POST", path: "/path" })

@@ -1,4 +1,4 @@
-import { queryParams } from "@airtasker/spot";
+import { queryParams } from "@stediinc/spot";
 
 class QueryParamsClass {
   queryParamsMethod(

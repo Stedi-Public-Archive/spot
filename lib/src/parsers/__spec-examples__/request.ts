@@ -4,7 +4,7 @@ import {
   pathParams,
   queryParams,
   request
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 
 class RequestClass {
   notRequest() {}

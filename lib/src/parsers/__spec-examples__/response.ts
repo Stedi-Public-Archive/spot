@@ -1,4 +1,4 @@
-import { body, headers, response } from "@airtasker/spot";
+import { body, headers, response } from "@stediinc/spot";
 
 class ResponseClass {
   notResponse() {}

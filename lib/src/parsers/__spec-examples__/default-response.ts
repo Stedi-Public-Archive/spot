@@ -1,4 +1,4 @@
-import { body, defaultResponse, headers } from "@airtasker/spot";
+import { body, defaultResponse, headers } from "@stediinc/spot";
 
 class DefaultResponseClass {
   notDefaultResponse() {}

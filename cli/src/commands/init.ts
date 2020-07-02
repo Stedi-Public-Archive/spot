@@ -26,7 +26,7 @@ Generated the following files:
     outputFile(
       ".",
       "api.ts",
-      `import { api, body, endpoint, request, response, String } from "@airtasker/spot";
+      `import { api, body, endpoint, request, response, String } from "@stediinc/spot";
 
 @api({ name: "my-api" })
 class Api {}
@@ -78,7 +78,7 @@ interface CreateUserResponse {
       false
     );
     outputFile(".", "package.json", JSON.stringify({}, null, 2), false);
-    execSync(`yarn add @airtasker/spot`, {
+    execSync(`yarn add @stediinc/spot`, {
       stdio: "inherit"
     });
   }

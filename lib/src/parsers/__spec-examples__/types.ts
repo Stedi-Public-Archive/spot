@@ -8,7 +8,7 @@ import {
   Integer,
   Number,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 
 interface TypeInterface {
   null: null;

@@ -1,4 +1,4 @@
-import { body } from "@airtasker/spot";
+import { body } from "@stediinc/spot";
 
 class BodyClass {
   bodyMethod(

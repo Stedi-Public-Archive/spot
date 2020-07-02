@@ -5,7 +5,7 @@
   "bin": {
     "spot": "./bin/run"
   },
-  "bugs": "https://github.com/airtasker/spot/issues",
+  "bugs": "https://github.com/stediinc/spot/issues",
   "dependencies": {
     "@oclif/command": "^1.6.1",
     "@oclif/config": "^1.15.1",
@@ -74,7 +74,7 @@
   ],
   "main": "index.js",
   "types": "index.d.ts",
-  "homepage": "https://github.com/airtasker/spot",
+  "homepage": "https://github.com/stediinc/spot",
   "license": "MIT",
   "oclif": {
     "commands": "./build/cli/src/commands",

@@ -619,7 +619,7 @@ function getTargetDeclarationFromTypeReference(
     const errorMsg = `${location}#${line}: expected exactly one declaration for ${typeName}`;
     if (typeName === "String") {
       throw new Error(
-        `${errorMsg}\nDid you forget to import String? => import { String } from "@airtasker/spot"`
+        `${errorMsg}\nDid you forget to import String? => import { String } from "@stediinc/spot"`
       );
     } else {
       const locations = declarations.map(decl => ({

@@ -7,7 +7,7 @@ import {
   request,
   response,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 
 @config({
   paramSerializationStrategy: {

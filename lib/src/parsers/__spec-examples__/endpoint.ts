@@ -8,7 +8,7 @@ import {
   queryParams,
   request,
   response
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 
 class NotEndpointClass {}
 

@@ -1,4 +1,4 @@
-import { headers, Int64 } from "@airtasker/spot";
+import { headers, Int64 } from "@stediinc/spot";
 
 class HeadersClass {
   headersMethod(

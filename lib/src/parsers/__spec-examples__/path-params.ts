@@ -1,4 +1,4 @@
-import { pathParams } from "@airtasker/spot";
+import { pathParams } from "@stediinc/spot";
 
 class PathParamsClass {
   pathParamsMethod(

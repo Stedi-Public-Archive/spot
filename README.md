@@ -9,7 +9,7 @@ You don't need to use TypeScript in your codebase to benefit from using Spot.
 Example of an API definition file `api.ts` which defines a single `POST` endpoint to create a user:
 
 ```typescript
-import { api, endpoint, request, response, body } from "@airtasker/spot";
+import { api, endpoint, request, response, body } from "@stediinc/spot";
 
 @api({
   name: "My API"
@@ -42,22 +42,22 @@ interface CreateUserResponse {
 
 ## Getting Started
 
-Get started with writing Spot contracts - [Spot Guide](https://github.com/airtasker/spot/wiki/Spot-Guide)
+Get started with writing Spot contracts - [Spot Guide](https://github.com/stediinc/spot/wiki/Spot-Guide)
 
-For all available syntax, see [Spot Syntax](https://github.com/airtasker/spot/wiki/Spot-Syntax)
+For all available syntax, see [Spot Syntax](https://github.com/stediinc/spot/wiki/Spot-Syntax)
 
 ### Installation
 
-With [yarn](https://yarnpkg.com/en/docs/usage) installed and initialized add `@airtasker/spot` to your project:
+With [yarn](https://yarnpkg.com/en/docs/usage) installed and initialized add `@stediinc/spot` to your project:
 
 ```sh
-yarn add @airtasker/spot
+yarn add @stediinc/spot
 ```
 
 You can pass the definition above to a generator by simply running:
 
 ```sh
-npx @airtasker/spot generate --contract api.ts
+npx @stediinc/spot generate --contract api.ts
 ```
 
 # Why we built Spot
@@ -87,10 +87,10 @@ Depending on what you're trying to achieve (testing, documentation, client code 
 We built Spot with this in mind. Instead of having to juggle various API format converters, Spot can generate every major API document format. This is why we called it "Single Point Of Truth".
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@airtasker/spot.svg)](https://npmjs.org/package/@airtasker/spot)
-[![CircleCI](https://circleci.com/gh/airtasker/spot/tree/master.svg?style=shield)](https://circleci.com/gh/airtasker/spot/tree/master)
-[![Downloads/week](https://img.shields.io/npm/dw/@airtasker/spot.svg)](https://npmjs.org/package/@airtasker/spot)
-[![License](https://img.shields.io/npm/l/@airtasker/spot.svg)](https://github.com/airtasker/spot/blob/master/package.json)
+[![Version](https://img.shields.io/npm/v/@stediinc/spot.svg)](https://npmjs.org/package/@stediinc/spot)
+[![CircleCI](https://circleci.com/gh/stediinc/spot/tree/master.svg?style=shield)](https://circleci.com/gh/stediinc/spot/tree/master)
+[![Downloads/week](https://img.shields.io/npm/dw/@stediinc/spot.svg)](https://npmjs.org/package/@stediinc/spot)
+[![License](https://img.shields.io/npm/l/@stediinc/spot.svg)](https://github.com/stediinc/spot/blob/master/package.json)
 
 <!-- toc -->
 * [Spot](#spot)
@@ -104,13 +104,13 @@ We built Spot with this in mind. Instead of having to juggle various API format 
 To get started and set up an API declaration in the current directory, run:
 
 ```
-npx @airtasker/spot init
+npx @stediinc/spot init
 ```
 
 You can then run a generator with:
 
 ```
-npx @airtasker/spot generate --contract api.ts
+npx @stediinc/spot generate --contract api.ts
 ```
 
 # Commands
@@ -144,7 +144,7 @@ EXAMPLE
   $ spot checksum api.ts
 ```
 
-_See code: [build/cli/src/commands/checksum.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/checksum.js)_
+_See code: [build/cli/src/commands/checksum.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/checksum.js)_
 
 ## `spot docs SPOT_CONTRACT`
 
@@ -165,7 +165,7 @@ EXAMPLE
   $ spot docs api.ts
 ```
 
-_See code: [build/cli/src/commands/docs.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/docs.js)_
+_See code: [build/cli/src/commands/docs.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/docs.js)_
 
 ## `spot generate`
 
@@ -186,7 +186,7 @@ EXAMPLE
   $ spot generate --contract api.ts --language yaml --generator openapi3 --out output/
 ```
 
-_See code: [build/cli/src/commands/generate.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/generate.js)_
+_See code: [build/cli/src/commands/generate.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/generate.js)_
 
 ## `spot help [COMMAND]`
 
@@ -224,7 +224,7 @@ EXAMPLE
   - package.json
 ```
 
-_See code: [build/cli/src/commands/init.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/init.js)_
+_See code: [build/cli/src/commands/init.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/init.js)_
 
 ## `spot lint SPOT_CONTRACT`
 
@@ -244,7 +244,7 @@ EXAMPLE
   $ spot lint api.ts
 ```
 
-_See code: [build/cli/src/commands/lint.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/lint.js)_
+_See code: [build/cli/src/commands/lint.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/lint.js)_
 
 ## `spot mock SPOT_CONTRACT`
 
@@ -269,7 +269,7 @@ EXAMPLE
   $ spot mock api.ts
 ```
 
-_See code: [build/cli/src/commands/mock.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/mock.js)_
+_See code: [build/cli/src/commands/mock.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/mock.js)_
 
 ## `spot validate SPOT_CONTRACT`
 
@@ -289,7 +289,7 @@ EXAMPLE
   $ spot validate api.ts
 ```
 
-_See code: [build/cli/src/commands/validate.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/validate.js)_
+_See code: [build/cli/src/commands/validate.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/validate.js)_
 
 ## `spot validation-server SPOT_CONTRACT`
 
@@ -310,5 +310,5 @@ EXAMPLE
   $ spot validation-server api.ts
 ```
 
-_See code: [build/cli/src/commands/validation-server.js](https://github.com/airtasker/spot/blob/v1.1.2/build/cli/src/commands/validation-server.js)_
+_See code: [build/cli/src/commands/validation-server.js](https://github.com/stediinc/spot/blob/v1.1.2/build/cli/src/commands/validation-server.js)_
 <!-- commandsstop -->

@@ -13,7 +13,7 @@ import {
   response,
   securityHeader,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 import "./contract-endpoint";
 import { Address, CompanyBody, ErrorBody, UserBody, UserQuery } from "./models";
 

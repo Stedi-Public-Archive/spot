@@ -1,4 +1,4 @@
-import { securityHeader } from "@airtasker/spot";
+import { securityHeader } from "@stediinc/spot";
 
 class SecurityHeaderClass {
   "not-security-header": string;

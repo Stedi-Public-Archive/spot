@@ -6,7 +6,7 @@ import {
   request,
   response,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 
 @api({ name: "contract" })
 class Contract {}

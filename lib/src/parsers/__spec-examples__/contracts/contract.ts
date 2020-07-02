@@ -11,7 +11,7 @@ import {
   response,
   securityHeader,
   String
-} from "@airtasker/spot";
+} from "@stediinc/spot";
 import "./contract-dependency";
 
 /** contract description */
